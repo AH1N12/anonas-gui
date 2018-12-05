@@ -1,4 +1,30 @@
-.logo {
-	max-width: 100px;
-	max-height: 100px;
+.logo-container {
+  padding: 5px;
+  background-color: red;
+  overflow: visible;
+  width: 210px;
+  border-radius: 0 0 5px 0;
+}
+
+@media only screen and (max-width: 576px) {
+  .navigation-container {
+  	text-align: center;
+    height: 100%;
+    background-color: blue;
+    /*float:left;*/
+    display: inline;
+    /*position: fixed;*/
+    border-radius: 0;
+    /*height: 100%;*/
+  }
+
+  .logo-container{
+  	height: 100%;
+  	width: auto;
+  	/*float:left;*/
+  	display: inline;
+  	overflow: auto;
+  	/*width: 100px;*/
+  	background-color: yellow;
+  }
 }

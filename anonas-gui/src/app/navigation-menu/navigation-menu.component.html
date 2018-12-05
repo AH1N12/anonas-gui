@@ -1,3 +1,8 @@
-<p>
-  navigation-menu works!
-</p>
+<div *ngIf="!isMobile">
+  <div *ngFor="let value of menuPositions">
+  <p>{{value}}</p> 
+  </div>
+</div>
+<div *ngIf="isMobile">
+  <button>this is some dropdown menu button</button>
+</div>

@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class NavigationMenuComponent implements OnInit {
 
   constructor() { }
-
-  ngOnInit() {
-  }
+  menuPositions: string[] = ["News", "Messages", "My Profile","Shit1","Shit2","Shit3","Shit4","Shit5","Shit6","Shit7","Shit8","Shit9"];
+  isMobile=false;
+  ngOnInit() {}
 
 }
