@@ -1,23 +1,13 @@
   <!-- nav bar -->
-  <app-navbar></app-navbar>
-
-
-
-<div class="jumbotron">
-  <h1>Welcome to ANONAS - the most anonimous social media platform all over the internet! </h1>
-  <p>
-    Not registered yet? Just fill in register form and join other anons!
-  </p>
-</div>
-
-
-<div class="top-bar">
-  <!-- logo -->
-  <div class="logo-container">
-<!--     <a routerLink="/welcome">
-    <img id="logo" src="assets/img/anonas.jpg">
-  </a> -->
+<div class="container-fluid"> 
+<div class="row">
+  <div class="col-lg-1 navbar-fixed-left" style="background-color: red;">
+    <app-navbar></app-navbar>
   </div>
-
+  <!-- spage content -->
+  <div class="col-lg-11 offset-lg-1">
+    <app-page-wrapper></app-page-wrapper>
+  </div>
 </div>
-<router-outlet></router-outlet>
+</div>
+https://mladenplavsic.github.io/bootstrap-navbar-sidebar/
