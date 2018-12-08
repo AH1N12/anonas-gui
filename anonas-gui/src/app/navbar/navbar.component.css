@@ -9,18 +9,20 @@
 @media only screen and (max-width: 576px) {
   .navigation-container {
   	text-align: center;
-    height: 100%;
+    height: initial;
     background-color: blue;
     /*float:left;*/
     display: inline;
+    /*position: absolute;*/
     /*position: fixed;*/
     border-radius: 0;
     /*height: 100%;*/
   }
 
   .logo-container{
-  	height: 100%;
-  	width: auto;
+  	height: initial;
+  	width: initial;
+    position: absolute;
   	/*float:left;*/
   	display: inline;
   	overflow: auto;

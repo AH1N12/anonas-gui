@@ -1,8 +1,15 @@
-<div *ngIf="!isMobile">
+<div class="d-none d-sm-block">
   <div *ngFor="let value of menuPositions">
   <p>{{value}}</p> 
   </div>
 </div>
-<div *ngIf="isMobile">
-  <button>this is some dropdown menu button</button>
+<div class="d-block d-sm-none">
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Button with data-target
+  </button>
+  <div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div>
+</div>
 </div>
