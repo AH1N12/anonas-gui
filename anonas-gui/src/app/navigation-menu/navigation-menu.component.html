@@ -1,15 +1,18 @@
-<div class="d-none d-sm-block">
-  <div *ngFor="let value of menuPositions">
-  <p>{{value}}</p> 
-  </div>
+<div class="d-none d-sm-block navigation-large">
+  <ul class="list-group">
+  	<!-- czemu nie dzialaja badgetsy? ani linki? -->
+    <div *ngFor="let value of menuPositions">
+      <a class="list-group-item">{{value}} <span class="badge">12</span></a>
+    </div>
+  </ul>
 </div>
 <div class="d-block d-sm-none">
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
     Button with data-target
   </button>
   <div class="collapse" id="collapseExample">
-  <div class="card card-body">
-    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+    <div class="card card-body">
+      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+    </div>
   </div>
-</div>
 </div>
